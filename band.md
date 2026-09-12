@@ -17,13 +17,14 @@ Aktywny muzyk na scenie krakowskiej i barcelońskiej od 2011 roku, absolwent Kra
 Aktywny muzyk sceniczny od kilku lat, obecnie student Akademii Muzycznej im. Krzysztofa Pendereckiego w Krakowie. Ma na swoim koncie liczne koncerty w krakowskich klubach i na scenach muzycznych, m.in. Piwnicy pod Baranami, Harris Piano Jazz Bar oraz Piec Art Szewska, a także występy z big bandami i różnymi składami muzycznymi. Dwukrotnie występował w Harris Piano Jazz Bar w ramach projektu Snarky Puppy Tribute. Gra szeroki repertuar i swobodnie porusza się w wielu gatunkach muzycznych, szczególnie jazzie, funku, soulu i muzyce rozrywkowej. Ma doświadczenie zarówno w kameralnych składach klubowych, jak i większych zespołach oraz koncertach plenerowych. Swoje umiejętności rozwijał również podczas licznych kursów i warsztatów jazzowych.
 
 **Kacper Działdowski – kontrabas**
+Po trwającym ok. dekadę epizodzie w death metalu, w trakcie którego jako basista nagrał dwie studyjne płyty i zagrał niezliczone koncerty na scenach klubowych i festiwalowych w środkowej Europie, Kacper zdecydował się podjąć subtelniejszych artystycznych wyzwań. Zmierzywszy się z akustyczną gitarą fingerstyle, odkrył zamiłowanie do bogatej harmonii, co ostatecznie doprowadziło go do jazzu. Po jakimś czasie powrócił do gitary basowej, na której czuł się swobodnie i na którą było większe zapotrzebowanie. Zdobywszy na tym instrumencie formalne wykształcenie w Krakowskiej Szkole Jazzu i Muzyki Rozrywkowej, zdecydował się rozszerzyć swój arsenał o kontrabas, ucząc się od wytrawnych specjalistów krakowskiej sceny jazzowej.
 
 **Jakub Berlin – perkusja**
 
 ## Technical Rider
 - **Trumpet:** Musician provides their own microphone.
 - **Piano:** Acoustic piano strongly preferred (mic'd and amplified by the venue). If an acoustic piano is unavailable, the band can provide an electric piano.
-- **Double Bass:** Musician provides their own bass amplifier.
+- **Double Bass:** Venue backline (bass amplifier) is strongly preferred. If necessary, the band can provide their own bass amplifier upon prior arrangement.
 - **Drums:** Prefer venue backline (drum shell pack and hardware); drummer will bring their own cymbals. If necessary, the band can provide a full drum kit upon prior arrangement.
 - **PA & Monitoring:** 
   - A minimum of 1 stage monitor is requested for the band.
@@ -40,6 +41,7 @@ Aktywny muzyk sceniczny od kilku lat, obecnie student Akademii Muzycznej im. Krz
 - `images/band-members/`
   - `blazej-drobniuch.jpg`
   - `kuba-soczek.jpeg`
+  - `kacper-dzialdowski.jpg`
 
 ## Media / Videos Section (Live at Piec Art)
 - Night Train to You (Marcin Wasilewski) - https://youtu.be/-TSlHHmTCYw
