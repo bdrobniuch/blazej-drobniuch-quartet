@@ -2,8 +2,9 @@
 
 ## Website Architecture & Technical Details
 - **Tech Stack:** Pure HTML, CSS, and vanilla JavaScript (no backend required). 
-- **Contact Form:** Embedded Google Forms iframe for handling booking requests and general inquiries directly on the site.
 - **Languages:** The website should be generated in both Polish and English. It must include a language toggle/switcher to allow users to select their preferred language, with Polish set as the default.
+- **Contact Form:** Embedded Google Forms iframe for handling booking requests and general inquiries directly on the site. Use the following code:
+  `<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfs8z9_Ab3gWICOR7NXiY0HZhUlJd8-riAv6WyTOXL9Ni853w/viewform?embedded=true" width="640" height="1145" frameborder="0" marginheight="0" marginwidth="0">Ładuję…</iframe>`
 
 ## Band Identity
 Contemporary European acoustic jazz quartet, formed in December 2025. Exploring modern jazz, ECM aesthetics, and contemporary Polish jazz compositions.
