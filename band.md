@@ -1,5 +1,10 @@
 # Błażej Drobniuch Quartet - Website Content
 
+## Website Architecture & Technical Details
+- **Tech Stack:** Pure HTML, CSS, and vanilla JavaScript (no backend required). 
+- **Contact Form:** Embedded Google Forms iframe for handling booking requests and general inquiries directly on the site.
+- **Languages:** The website should be generated in both Polish and English. It must include a language toggle/switcher to allow users to select their preferred language, with Polish set as the default.
+
 ## Band Identity
 Contemporary European acoustic jazz quartet, formed in December 2025. Exploring modern jazz, ECM aesthetics, and contemporary Polish jazz compositions.
 
@@ -23,6 +28,12 @@ Aktywny muzyk sceniczny od kilku lat, obecnie student Akademii Muzycznej im. Krz
 - **PA & Monitoring:** 
   - A minimum of 1 stage monitor is requested for the band.
   - The venue's PA system must have the capacity to amplify the piano, double bass, and trumpet.
+
+## Upcoming Concerts
+
+
+## Past Concerts
+- **2026-07-26** – Piec Art Acoustic Jazz Club, Kraków
 
 ## Photos Directory
 - `images/concerts/piec-art-krakow-2026-07-26/` (featuring live shots from Piec Art Acoustic Jazz Club on July 26, 2026)
