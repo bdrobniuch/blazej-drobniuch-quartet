@@ -15,6 +15,15 @@ Aktywny muzyk sceniczny od kilku lat, obecnie student Akademii Muzycznej im. Krz
 
 **Jakub Berlin – perkusja**
 
+## Technical Rider
+- **Trumpet:** Musician provides their own microphone.
+- **Piano:** Acoustic piano strongly preferred (mic'd and amplified by the venue). If an acoustic piano is unavailable, the band can provide an electric piano.
+- **Double Bass:** Musician provides their own bass amplifier.
+- **Drums:** Prefer venue backline (drum shell pack and hardware); drummer will bring their own cymbals. If necessary, the band can provide a full drum kit upon prior arrangement.
+- **PA & Monitoring:** 
+  - A minimum of 1 stage monitor is requested for the band.
+  - The venue's PA system must have the capacity to amplify the piano, double bass, and trumpet.
+
 ## Photos Directory
 - `images/concerts/piec-art-krakow-2026-07-26/` (featuring live shots from Piec Art Acoustic Jazz Club on July 26, 2026)
 - `images/band-members/`
