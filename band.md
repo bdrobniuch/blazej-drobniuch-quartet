@@ -2,10 +2,22 @@
 
 ## Website Architecture & Technical Details
 - **Tech Stack:** Pure HTML, CSS, and vanilla JavaScript (no backend required). 
-- **Design & Vibe:** Elegant, minimalist, inspired by ECM Records cover aesthetics. (Elegancki, minimalistyczny, inspirowany estetyką okładek ECM Records). This should heavily influence the CSS color palette, typography, and spacing.
+- **Mobile-First & Responsive Design:** The website must be fully responsive and perfectly scaled for mobile devices. Venue managers often check websites on their phones on the go, so the mobile layout must be flawless, fast, and easy to navigate.
+- **Design, Vibe & Animations (ECM Records Aesthetic):** Elegant, minimalist, and deeply inspired by ECM Records cover art. The CSS and JavaScript must include subtle, atmospheric animations. Use CSS keyframes for slow-moving, fluid background gradients (muted colors, deep greys, washed-out blues). Implement a subtle "film grain" or noise overlay using CSS. Background images should feature a very slow, continuous pan or zoom (Ken Burns effect) to create a sense of space and melancholy. The animations must be highly stylized, seamless, and non-distracting, perfectly matching the vibe of contemporary European jazz.
 - **Languages:** The website should be generated in both Polish and English. It must include a language toggle/switcher to allow users to select their preferred language, with Polish set as the default. The AI should professionally translate all provided Polish texts into English for the dual-language setup.
 - **Contact Form:** Embedded Google Forms iframe for handling booking requests and general inquiries directly on the site. Use the following code:
   `<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfs8z9_Ab3gWICOR7NXiY0HZhUlJd8-riAv6WyTOXL9Ni853w/viewform?embedded=true" width="640" height="1145" frameborder="0" marginheight="0" marginwidth="0">Ładuję…</iframe>`
+
+## Hero Section & User Experience (First Impression)
+The website must be aggressively optimized for conversion (booking) and instant professional credibility aimed at venue managers. 
+- **Sticky Navigation:** A global "Booking & Kontakt" button must be constantly visible (e.g., in a sticky header or a floating action button on mobile) so the contact form is always exactly one click away, regardless of scroll depth.
+- **Mobile Experience:** On smartphones, the first screen must immediately convey premium quality. The background image must scale perfectly (keeping the main subject in focus), typography must be highly legible, and the CTA buttons must be large enough for easy thumb-tapping. The entire layout should scream "professionalism" the second it loads.
+- **Hero Image/Video:** Use a high-quality live concert photo from the `images/concerts/piec-art-krakow-2026-07-26/` directory as a full-screen, atmospheric background (dimmed slightly to ensure text readability). *Crucial detail for AI:* The folder contains both color and grayscale photos. You must select the one that best matches the ECM color palette (or use CSS filters to perfectly match it to the muted, moody color scheme of the site). Consider adding a "Play" icon overlay linking to one of the live videos.
+- **Value-Driven Headline:** "Contemporary European Acoustic Jazz" with a subheadline emphasizing reliability and top-tier repertoire: "Profesjonalna oprawa muzyczna dla wymagających scen. Hołd dla legend polskiego jazzu i estetyki ECM." (Translate to English for the EN version).
+- **Immediate Social Proof:** Just below the main headline, highlight the musicians' pedigree and the recent live session: "Muzycy kwartetu współtworzyli brzmienie takich scen jak m.in. Piwnica Pod Baranami, Harris Piano Jazz Bar czy Klub Piec Art."
+- **Dual Call-to-Action (CTA):** Two main buttons on the hero screen: 
+  1. "Zarezerwuj koncert" (anchors instantly to the Contact Form).
+  2. "Obejrzyj Live Session (Piec Art)" (anchors directly to the YouTube videos section).
 
 ## Band Identity
 Contemporary European acoustic jazz quartet, formed in December 2025. Exploring modern jazz, ECM aesthetics, and contemporary Polish jazz compositions.
