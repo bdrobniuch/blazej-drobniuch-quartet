@@ -510,11 +510,13 @@ li + li {
 .btn--ghost {
   background: transparent;
   color: var(--text);
-  border-color: rgba(235, 232, 226, 0.35);
+  border-color: rgba(255, 255, 255, 0.45);
 }
 
-.btn--ghost:hover {
-  border-color: var(--text);
+.btn--ghost:hover,
+.btn--ghost:focus-visible {
+  border-color: var(--accent);
+  background: var(--accent-wash);
   color: var(--text);
 }
 
