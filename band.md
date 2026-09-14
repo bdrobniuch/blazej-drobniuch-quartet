@@ -9,6 +9,17 @@
 ## Band Identity
 Contemporary European acoustic jazz quartet, formed in December 2025. Exploring modern jazz, ECM aesthetics, and contemporary Polish jazz compositions.
 
+## Value Proposition / Main Projects (Homepage Highlights)
+The homepage should prominently feature two main projects (value propositions) that the band offers, functioning as clickable cards or sections that reveal more details:
+
+**1. Tribute to Tomasz Stańko**
+*   **Short Teaser:** Projekt dedykowany twórczości wybitnego trębacza i wizjonera, Tomasza Stańko. 
+*   **Expanded Details:** Koncert stanowiący głęboki hołd dla unikalnego brzmienia i estetyki Tomasza Stańko. Nasz kwartet sięga po kompozycje mistrza, eksplorując ich słowiańską melancholię, liryzm oraz przestrzenne, improwizowane formy charakterystyczne dla europejskiego jazzu i wytwórni ECM. To propozycja idealna dla wymagającej publiczności, ceniącej głębię i emocjonalny przekaz w muzyce improwizowanej.
+
+**2. Tribute to Polish Jazz**
+*   **Short Teaser:** Przekrój przez to, co najlepsze w historii i współczesności polskiego jazzu.
+*   **Expanded Details:** Wyjątkowy program koncertowy prezentujący bogactwo polskiej szkoły jazzu. W repertuarze tego projektu znajdują się nieśmiertelne, światowej klasy kompozycje takich legend jak Krzysztof Komeda, Victor Young, Bronisław Kaper oraz Jan Ptaszyn Wróblewski. Całość dopełniają utwory współczesnych mistrzów polskiej sceny: Marcina Wasilewskiego, Macieja Obary i Tomasza Stańko. Koncert ten to fascynująca podróż łącząca tradycję z nowoczesnym, europejskim brzmieniem.
+
 ## Lineup & Bios
 
 **Błażej Drobniuch – fortepian/syntezatory**
