@@ -1,29 +1,42 @@
 # Błażej Drobniuch Quartet - Master Website Specification
 
-## 1. Project Structure & File Generation
-Please structure the project using the following strict directory tree. Generate the files accordingly and ensure all relative paths for CSS, JS, and images match this exact structure:
+## 1. Project Structure & GitHub Pages Requirements
+The site will be hosted on GitHub Pages from the repository: `https://github.com/bdrobniuch/blazej-drobniuch-quartet`. 
+
+Please structure the project using the following directory tree. Generate the files accordingly:
 
 /
+├── .nojekyll          (Empty file to bypass default Jekyll processing on GitHub Pages)
+├── 404.html           (Styled 404 error page matching the ECM aesthetic)
 ├── index.html         (Polish - Default language)
 ├── en.html            (English language version)
 ├── css/
 │   └── style.css      (All vanilla CSS, variables, and keyframes)
 ├── js/
 │   └── app.js         (Intersection Observers and language toggle logic)
-└── images/            (Preserve the exact folder structure below)
+└── images/            
     ├── concerts/
+    │   └── piec-art-krakow-2026-07-26/
+    │       └── hero-bg.jpg
     └── band-members/
+        ├── blazej-drobniuch.jpg
+        ├── kuba-soczek.jpeg
+        ├── kacper-dzialdowski.jpg
+        └── kuba-berlin.jpeg
 
-*Important:* Keep both HTML files in the root directory. This ensures that relative paths to the `css/`, `js/`, and `images/` folders remain absolutely identical in both `index.html` and `en.html`. 
+*STRICT GITHUB PAGES PATHING RULES:*
+- NEVER use leading absolute slashes (e.g., do NOT write `/css/style.css` or `/images/...`).
+- ALWAYS use strictly relative paths (e.g., `./css/style.css`, `./images/band-members/blazej-drobniuch.jpg`, `href="en.html"` and `href="index.html"`).
+- Maintain strict case sensitivity across all filenames and image paths.
 
 ## 2. Technical & Architectural Requirements
 - **Tech Stack (STRICT):** Pure HTML, vanilla CSS, and vanilla JavaScript ONLY. Do NOT use any frameworks or build tools (no React, no Next.js, no Tailwind CSS, no npm dependencies). You must rely on modern native CSS features (Grid, Flexbox, custom properties, CSS variables, `@keyframes` for Ken Burns and fluid gradients). For scroll-based fade-in and transition effects, strictly use the native vanilla JavaScript `Intersection Observer API`. Implement the ECM 'film grain' overlay using lightweight CSS/SVG data-URI techniques, ensuring high performance. The goal is a highly maintainable, standalone codebase.
-- **SEO, Accessibility & Semantic Structure:** The generated code must be production-ready on the first iteration. Use highly semantic HTML5.
+- **SEO, Accessibility & Semantic Structure:** The generated code must be production-ready on the first iteration. Use highly semantic HTML5. The site will be hosted at `https://bdrobniuch.github.io/blazej-drobniuch-quartet/`. You must include comprehensive Open Graph (OG) meta tags and canonical links using this base URL so the site looks professional when shared on social media or messaging apps. Ensure proper ARIA labels are used for the language toggle and navigation.
 - **Mobile-First & Responsive Design:** The website must be fully responsive and perfectly scaled for mobile devices. Venue managers often check websites on their phones on the go, so the mobile layout must be flawless, fast, and easy to navigate.
 - **Design, Vibe & Animations (ECM Records Aesthetic):** Elegant, minimalist, and deeply inspired by ECM Records cover art. The CSS and JavaScript must include subtle, atmospheric animations. Use CSS keyframes for slow-moving, fluid background gradients (muted colors, deep greys, washed-out blues). Implement a subtle "film grain" or noise overlay using pure CSS/SVG filters. Background images should feature a very slow, continuous pan or zoom (Ken Burns effect) to create a sense of space and melancholy. The animations must be highly stylized, seamless, and non-distracting, perfectly matching the vibe of contemporary European jazz.
 - **Workflow & Languages:** 
-  - Step 1: Generate the full Polish version of the HTML (`index.html`), alongside the CSS and JS files. 
-  - Step 2: Only after I confirm, professionally translate the Polish texts into English and generate `en.html`. Include a language toggle/switcher in the navigation to link between `index.html` and `en.html`.
+  - Step 1: Generate the full Polish version of the HTML (`index.html`), alongside the CSS and JS files, and `.nojekyll`/`404.html`. 
+  - Step 2: Only after I confirm, professionally translate the Polish texts into English and generate `en.html`. Include a language toggle/switcher in the navigation to link strictly via relative paths between `index.html` and `en.html`.
 - **Contact Form:** Embedded Google Forms iframe for handling booking requests and general inquiries directly on the site. Use the following code:
   `<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfs8z9_Ab3gWICOR7NXiY0HZhUlJd8-riAv6WyTOXL9Ni853w/viewform?embedded=true" width="640" height="1145" frameborder="0" marginheight="0" marginwidth="0">Ładuję…</iframe>`
 
@@ -31,7 +44,7 @@ Please structure the project using the following strict directory tree. Generate
 The website must be aggressively optimized for conversion (booking) and instant professional credibility aimed at venue managers. 
 - **Sticky Navigation:** A global "Booking & Kontakt" button must be constantly visible (e.g., in a sticky header or a floating action button on mobile) so the contact form is always exactly one click away, regardless of scroll depth.
 - **Mobile Experience:** On smartphones, the first screen must immediately convey premium quality. The background image must scale perfectly (keeping the main subject in focus), typography must be highly legible, and the CTA buttons must be large enough for easy thumb-tapping. The entire layout should scream "professionalism" the second it loads.
-- **Hero Image/Video:** Use `images/concerts/piec-art-krakow-2026-07-26/hero-bg.jpg` as a placeholder for a full-screen, atmospheric background (dimmed slightly to ensure text readability). I will rename the best photo in that directory to match this filename later. Consider adding a "Play" icon overlay linking to one of the live videos.
+- **Hero Image/Video:** Use `./images/concerts/piec-art-krakow-2026-07-26/hero-bg.jpg` as a placeholder for a full-screen, atmospheric background (dimmed slightly to ensure text readability). I will rename the best photo in that directory to match this filename later. Consider adding a "Play" icon overlay linking to one of the live videos.
 - **Value-Driven Headline:** "Contemporary European Acoustic Jazz" with a subheadline emphasizing reliability and top-tier repertoire: "Profesjonalna oprawa muzyczna dla wymagających scen. Hołd dla legend polskiego jazzu i estetyki ECM." (Translate to English for the EN version).
 - **Immediate Social Proof:** Just below the main headline, highlight the musicians' pedigree and the recent live session: "Muzycy kwartetu współtworzyli brzmienie takich scen jak m.in. Piwnica Pod Baranami, Harris Piano Jazz Bar czy Klub Piec Art."
 - **Dual Call-to-Action (CTA):** Two main buttons on the hero screen: 
@@ -82,8 +95,8 @@ Aktywny muzyk sceniczny, perkusista i kompozytor, obecnie student Akademii Muzyc
 - **2026-07-26** – Piec Art Acoustic Jazz Club, Kraków
 
 ## 10. Photos Directory
-- `images/concerts/piec-art-krakow-2026-07-26/` (featuring live shots from Piec Art Acoustic Jazz Club on July 26, 2026)
-- `images/band-members/`
+- `./images/concerts/piec-art-krakow-2026-07-26/` (featuring live shots from Piec Art Acoustic Jazz Club on July 26, 2026)
+- `./images/band-members/`
   - `blazej-drobniuch.jpg`
   - `kuba-soczek.jpeg`
   - `kacper-dzialdowski.jpg`
