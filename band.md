@@ -44,7 +44,8 @@ Aktywny muzyk sceniczny od kilku lat, obecnie student Akademii Muzycznej im. Krz
 **Kacper Działdowski – kontrabas**
 Po trwającym ok. dekadę epizodzie w death metalu, w trakcie którego jako basista nagrał dwie studyjne płyty i zagrał niezliczone koncerty na scenach klubowych i festiwalowych w środkowej Europie, Kacper zdecydował się podjąć subtelniejszych artystycznych wyzwań. Zmierzywszy się z akustyczną gitarą fingerstyle, odkrył zamiłowanie do bogatej harmonii, co ostatecznie doprowadziło go do jazzu. Po jakimś czasie powrócił do gitary basowej, na której czuł się swobodnie i na którą było większe zapotrzebowanie. Zdobywszy na tym instrumencie formalne wykształcenie w Krakowskiej Szkole Jazzu i Muzyki Rozrywkowej, zdecydował się rozszerzyć swój arsenał o kontrabas, ucząc się od wytrawnych specjalistów krakowskiej sceny jazzowej.
 
-**Jakub Berlin – perkusja**
+**Kuba Berlin – perkusja**
+Perkusista i kompozytor, student Akademii Muzycznej w Krakowie na kierunku jazz i muzyka improwizowana. Ukończył fakultet z aranżacji i kompozycji. Blisko związany z krakowską sceną jazzową, występując na scenach takich klubów jak Jazz Club u Muniaka, Klub Pod Jaszczurami, Klub Gwarek, Klub Studio. Koncertował na scenach w Polsce, Francji, Finlandii, Estonii i na Litwie.
 
 ## Technical Rider
 - **Trumpet:** Musician provides their own microphone.
@@ -67,6 +68,7 @@ Po trwającym ok. dekadę epizodzie w death metalu, w trakcie którego jako basi
   - `blazej-drobniuch.jpg`
   - `kuba-soczek.jpeg`
   - `kacper-dzialdowski.jpg`
+  - `kuba-berlin.jpeg`
 
 ## Media / Videos Section (Live at Piec Art)
 - Night Train to You (Marcin Wasilewski) - https://youtu.be/-TSlHHmTCYw
