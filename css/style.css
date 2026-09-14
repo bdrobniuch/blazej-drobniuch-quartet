@@ -695,6 +695,31 @@ li + li {
   margin-bottom: var(--space-sm);
 }
 
+.member__social {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin: 0 0 var(--space-md);
+  padding: 0.35rem 0;
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.9rem;
+  letter-spacing: 0.02em;
+  transition: color 0.25s var(--ease), transform 0.25s var(--ease);
+}
+
+.member__social-icon {
+  width: 1.15rem;
+  height: 1.15rem;
+  flex-shrink: 0;
+}
+
+.member__social:hover,
+.member__social:focus-visible {
+  color: var(--text);
+  transform: translateY(-1px);
+}
+
 .member__bio {
   color: var(--text-muted);
   font-size: 0.98rem;
