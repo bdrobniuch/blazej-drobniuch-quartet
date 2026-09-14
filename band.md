@@ -2,7 +2,8 @@
 
 ## Website Architecture & Technical Details
 - **Tech Stack:** Pure HTML, CSS, and vanilla JavaScript (no backend required). 
-- **Languages:** The website should be generated in both Polish and English. It must include a language toggle/switcher to allow users to select their preferred language, with Polish set as the default.
+- **Design & Vibe:** Elegant, minimalist, inspired by ECM Records cover aesthetics. (Elegancki, minimalistyczny, inspirowany estetyką okładek ECM Records). This should heavily influence the CSS color palette, typography, and spacing.
+- **Languages:** The website should be generated in both Polish and English. It must include a language toggle/switcher to allow users to select their preferred language, with Polish set as the default. The AI should professionally translate all provided Polish texts into English for the dual-language setup.
 - **Contact Form:** Embedded Google Forms iframe for handling booking requests and general inquiries directly on the site. Use the following code:
   `<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfs8z9_Ab3gWICOR7NXiY0HZhUlJd8-riAv6WyTOXL9Ni853w/viewform?embedded=true" width="640" height="1145" frameborder="0" marginheight="0" marginwidth="0">Ładuję…</iframe>`
 
