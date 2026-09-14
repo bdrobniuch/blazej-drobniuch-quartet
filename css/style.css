@@ -124,20 +124,26 @@ li + li {
   z-index: -2;
   overflow: hidden;
   pointer-events: none;
-  background: radial-gradient(120% 80% at 12% 0%, #2a2a2a 0%, transparent 55%),
-    radial-gradient(90% 70% at 90% 18%, #1f1f1f 0%, transparent 50%),
-    linear-gradient(160deg, #080808 0%, #121212 45%, #0a0a0a 100%);
-  animation: gradient-drift 28s ease-in-out infinite alternate;
+  background:
+    radial-gradient(ellipse 90% 60% at 8% 12%, rgba(70, 70, 70, 0.55) 0%, transparent 55%),
+    radial-gradient(ellipse 70% 50% at 92% 28%, rgba(48, 48, 48, 0.45) 0%, transparent 50%),
+    radial-gradient(ellipse 80% 55% at 50% 100%, rgba(36, 36, 36, 0.4) 0%, transparent 55%),
+    linear-gradient(165deg, #070707 0%, #121212 42%, #0b0b0b 100%);
+  background-size: 120% 120%, 130% 130%, 110% 110%, 100% 100%;
+  background-position: 0% 0%, 100% 20%, 50% 100%, center;
+  animation: atmosphere-breathe 22s ease-in-out infinite alternate;
 }
 
-@keyframes gradient-drift {
+@keyframes atmosphere-breathe {
   0% {
-    filter: brightness(1);
+    filter: brightness(0.95) contrast(1);
+    background-position: 0% 10%, 100% 15%, 40% 100%, center;
     transform: scale(1);
   }
   100% {
-    filter: brightness(1.08);
-    transform: scale(1.04);
+    filter: brightness(1.12) contrast(1.04);
+    background-position: 18% 0%, 80% 35%, 60% 85%, center;
+    transform: scale(1.05);
   }
 }
 
@@ -147,7 +153,7 @@ li + li {
   inset: 0;
   z-index: 999;
   pointer-events: none;
-  opacity: 0.055;
+  opacity: 0.09;
   mix-blend-mode: overlay;
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 220 220' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
@@ -525,10 +531,56 @@ li + li {
 .section {
   padding: var(--space-2xl) 0;
   position: relative;
+  isolation: isolate;
+}
+
+.section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 1;
 }
 
 .section--alt {
-  background: rgba(255, 255, 255, 0.015);
+  background: transparent;
+}
+
+#projekty::before {
+  background:
+    radial-gradient(ellipse 70% 55% at 0% 40%, rgba(255, 255, 255, 0.04) 0%, transparent 60%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.02) 0%, transparent 100%);
+}
+
+#sklad::before {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.035) 0%, rgba(255, 255, 255, 0.015) 100%);
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+#koncerty::before {
+  background:
+    radial-gradient(ellipse 90% 70% at 50% 0%, rgba(0, 0, 0, 0.55) 0%, transparent 70%),
+    linear-gradient(180deg, #050505 0%, transparent 45%, #050505 100%);
+}
+
+#media::before {
+  background:
+    radial-gradient(ellipse 80% 50% at 80% 30%, rgba(255, 255, 255, 0.03) 0%, transparent 55%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.025) 0%, rgba(0, 0, 0, 0.15) 100%);
+}
+
+#kontakt::before {
+  background:
+    radial-gradient(ellipse 70% 60% at 50% 100%, rgba(255, 255, 255, 0.05) 0%, transparent 55%),
+    linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0.02) 100%);
+}
+
+#rider::before {
+  background:
+    linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0%, rgba(255, 255, 255, 0.02) 100%);
 }
 
 .section__inner {
@@ -1110,6 +1162,12 @@ li + li {
   .photo-slider__slide img {
     animation: none !important;
     transition: none !important;
+  }
+
+  .page-atmosphere {
+    filter: none !important;
+    transform: none !important;
+    background-position: center !important;
   }
 
   .reveal {
