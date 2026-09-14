@@ -807,6 +807,26 @@ li + li {
   display: block;
 }
 
+.project__option {
+  margin-top: var(--space-md);
+  padding: var(--space-md);
+  border-left: 2px solid var(--accent-deep);
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.project__option strong {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-family: var(--font-display);
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text);
+}
+
 .project__toggle {
   background: transparent;
   border: 1px solid var(--line);
