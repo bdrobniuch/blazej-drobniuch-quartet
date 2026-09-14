@@ -527,8 +527,8 @@ li + li {
 /* Hero */
 .hero {
   position: relative;
-  min-height: 100svh;
-  min-height: 100vh;
+  min-height: calc(100svh - var(--header-h));
+  min-height: calc(100vh - var(--header-h));
   display: grid;
   align-items: end;
   overflow: hidden;
@@ -578,7 +578,7 @@ li + li {
   z-index: 1;
   width: min(100% - 2rem, var(--max));
   margin: 0 auto;
-  padding: calc(var(--header-h) + 2rem) 0 4rem;
+  padding: 2rem 0 4rem;
 }
 
 .hero__brand {
