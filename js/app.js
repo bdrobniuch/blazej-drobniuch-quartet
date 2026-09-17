@@ -9,14 +9,14 @@
   /* Mobile navigation */
   var navToggle = document.querySelector(".nav-toggle");
   var siteNav = document.getElementById("site-nav");
+  var isEnglish = (document.documentElement.lang || "").toLowerCase().indexOf("en") === 0;
+  var navLabelOpen = isEnglish ? "Open navigation menu" : "Otwórz menu nawigacji";
+  var navLabelClose = isEnglish ? "Close navigation menu" : "Zamknij menu nawigacji";
 
   function setNavOpen(isOpen) {
     if (!navToggle || !siteNav) return;
     navToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
-    navToggle.setAttribute(
-      "aria-label",
-      isOpen ? "Zamknij menu nawigacji" : "Otwórz menu nawigacji"
-    );
+    navToggle.setAttribute("aria-label", isOpen ? navLabelClose : navLabelOpen);
     siteNav.classList.toggle("is-open", isOpen);
   }
 
