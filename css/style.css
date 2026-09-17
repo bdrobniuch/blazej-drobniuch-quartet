@@ -871,6 +871,7 @@ li + li {
   aspect-ratio: 4 / 5;
   overflow: hidden;
   background: var(--bg-soft);
+  border: 1px solid var(--line);
 }
 
 .member__photo img {
